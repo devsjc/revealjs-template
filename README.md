@@ -1,5 +1,7 @@
 # RevealJS Template
 
+![Logo mashup](public/logo.png)
+
 To use, either clone this repo, or run
 
 ```shell

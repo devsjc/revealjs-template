@@ -9,17 +9,42 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>
-          <h1 style="color: white">Slide 1</h1>
-          <img src="/logo.png">
+        <section data-auto-animate  data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+          <h2 style="color: black">Template reveal.js presentation</h2>
+          <div class="r-hstack justify-center">
+            <div data-id="box1" style="background: #999; width: 100px; height: 5px; margin: 10px; border-radius: 5px;"></div>
+            <div data-id="box2" style="background: #999; width: 100px; height: 5px; margin: 10px; border-radius: 5px;"></div>
+            <div data-id="box3" style="background: #999; width: 100px; height: 5px; margin: 10px; border-radius: 5px;"></div>
+          </div>
+          <img src="/logo.png" style="border-radius: 15px;">
 
           <aside class="notes">
             Here is where you write your script for the presentation. Access these notes
             by pressing "S" in the presentation window.
           </aside>
         </section>
-        <section>
-          Slide 2
+        <section data-auto-animate>
+          <div class="r-hstack justify-center">
+            <div data-id="box1" data-auto-animate-delay="0" style="background: sandybrown; width: 150px; height: 100px; margin: 10px;"></div>
+            <div data-id="box2" data-auto-animate-delay="0.1" style="background: seagreen; width: 150px; height: 100px; margin: 10px;"></div>
+            <div data-id="box3" data-auto-animate-delay="0.2" style="background: slateblue; width: 150px; height: 100px; margin: 10px;"></div>
+          </div>
+          <div class="r-hstack justify-center">
+            <div style="width: 150px; text-align: center;"><h4>Who</h4></div>
+            <div style="width: 150px; text-align: center;"><h4>What</h4></div>
+            <div style="width: 150px; text-align: center;"><h4>Why</h4></div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <div class="r-hstack justify-center">
+            <div data-id="box1" data-auto-animate-delay="0" style="background: sandybrown; width: 150px; height: 100px; margin: 10px;"></div>
+          </div>
+          <div class="r-hstack justify-center">
+            <div style="width: 150px; text-align: center;"><h4>Who</h4></div>
+          </div>
+        </section>
+        <section data-auto-animate data-background-color="sandybrown" data-background-transition="zoom">
+          <div style="width: 150px; text-align: center;"><h4>Who</h4></div>
         </section>
       </div>
     </div>

@@ -6,3 +6,14 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.outside { 
+  position: absolute; 
+  display: table; 
+}
+
+.inside {
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+}

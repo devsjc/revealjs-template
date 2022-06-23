@@ -31,3 +31,8 @@ development steps but then select `build`. This creates a
 bundle in a folder called `dist`. We can preview this site
 by choosing the `preview` npm option, again from the 
 command palette. 
+
+---
+
+Developed using [this blog](https://glebbahmutov.com/blog/reveal-vite/)
+on setting up [vite](https://vitejs.dev/) with [reveal.js](https://revealjs.com/).

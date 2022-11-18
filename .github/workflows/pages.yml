@@ -34,13 +34,14 @@ jobs:
           node-version: latest
           cache: npm
       # Build static files to 'dist' folder
-      - run: npm run build
+      - run: npm install && npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: 'dist'
           
   deploy:
+    needs: ['build']
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -35,9 +35,9 @@ jobs:
           cache: npm
       - name: Create Vite config for Pages
         run: |
-          echo export default { >> vite.config.js
-          echo base: \"/$(basename $GITHUB_REPOSITORY)/\" >> vite.config.js
-          echo } >> vite.config.js
+          echo "export default {" >> vite.config.js
+          echo "  base: \"/$(basename $GITHUB_REPOSITORY)/\"" >> vite.config.js
+          echo "}" >> vite.config.js
           cat vite.config.js
       # Build static files to 'dist' folder
       - run: npm install && npm run build
